@@ -1,0 +1,24 @@
+- Id: 32
+  Execute: 32
+  Argument: 32
+  SubMenu: -1
+  CmdIcon: Null
+  MessageId: 33265
+  Flags: Cursor, Land, Battle, DisableSkateboard
+  Range: -0.7071067690849304
+  Dir: 0.0
+  DirRange: -1
+  Cost: 0
+  CmdCamera: Null
+  Priority: 100
+  CmdReceiver: Player
+  Time: 0
+  Require: 0
+  Mark: 2
+  CmdAction: Null
+  ReactionCount: 0
+  DistRange: 0
+  Score: 0
+  DisableForm: 0
+  Group: 0
+  Reserve: 0

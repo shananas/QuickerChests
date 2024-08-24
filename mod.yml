@@ -1,0 +1,34 @@
+assets:
+- name: 03system.bin
+  method: binarc  
+  source:
+  - method: listpatch
+    name: cmd
+    type: List
+    source:
+    - name: Cmd.yml
+      type: cmd
+- name: obj/F_EX030.mdlx
+  multi:
+  - name: obj/F_EX030_BB.mdlx
+  - name: obj/F_EX030_HE.mdlx
+  - name: obj/F_EX030_TR.mdlx
+  - name: obj/F_EX030_AL.mdlx
+  - name: obj/F_EX030_CA.mdlx
+  - name: obj/F_EX030_NM.mdlx
+  - name: obj/F_EX030_MU.mdlx
+  - name: obj/F_EX030_PO.mdlx
+  - name: obj/F_EX030_DC.mdlx
+  - name: obj/F_EX030_WI.mdlx
+  - name: obj/F_EX030_EH.mdlx
+  - name: obj/F_EX030_NM_XMAS.mdlx
+  - name: obj/F_EX050.mdlx
+  - name: obj/F_EX030_TT.mdlx
+  - name: obj/F_EX030_HB.mdlx
+  method: binarc
+  source:
+  - method: copy
+    name: f_ex
+    source:
+    - name: f_ex_0.coctmodel
+    type: ModelCollision
